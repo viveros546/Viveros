@@ -1,0 +1,434 @@
+header {
+    text-align: center;  /* CENTRAR EL  */
+}
+
+header h1 {
+    margin: 0; /* Elimina el margen predeterminado del h1 */
+    display: inline-block; /* Permite que el logo y el texto estén en la misma línea */
+}
+
+
+.menu1 {
+    display: block;
+}
+
+.menu1 ul {
+    list-style: none;
+    padding: 0;
+}
+.menu1 li {
+    display: inline-block; /* Opcionalmente puedes usar display: inline; */
+    margin-right: 50px; /* Ajusta el espaciado entre los elementos <li> */
+}
+.menu1 a {
+    color: #333; /* Cambia el color del texto a gris oscuro */
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    font-weight: bold; /* Hace el texto en negrita */
+}
+
+.CATALOGO-MENU {
+    list-style: none;
+    padding: 0;
+}
+
+.CATALOGO-MENU li {
+    display: inline-block; /* Muestra los elementos <li> en línea */
+    margin-right: 30px; /* Ajusta el espaciado entre los elementos <li> */
+}
+
+.CATALOGO-MENU li a {
+    color: #333; /* Cambia el color del texto a gris oscuro */
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    font-weight: bold; /* Hace el texto en negrita */
+}
+.fotos-container {
+    display: none; /* Oculta todos los contenedores de fotos inicialmente */
+}
+.fotos-container.active {
+    display: block;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: serif, sans-serif;
+    overflow-x: hidden; /* Oculta la barra de desplazamiento horizontal */
+}
+
+.menu.container a.logo {
+    display: flex;
+    align-items: center; /* Alinea verticalmente los elementos del logo */
+    text-decoration: none; /* Elimina el subrayado del enlace */
+    
+}
+.menu-container{
+    height: 55px;
+    
+  
+}
+.logo{
+    display: flex;
+    align-items: center;
+    margin-top: 10px; /* Ajusta la cantidad de píxeles según sea necesario */
+
+}
+
+.logo-img {
+    width: 50px; /* Ajusta el ancho del logo según tus necesidades */
+    height: auto; /* Mantiene la proporción de aspecto del logo */
+    margin-right: 50%; /* Ajusta el espacio entre el logo y el texto */
+    width: 11%; /* Ajusta el tamaño según tus necesidades */
+    margin-right: 0%; /* Ajusta el espacio entre la imagen y el texto según tus necesidades */
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-left: 40%; /* Ajusta el margen izquierdo según tus necesidades */
+    margin-right: 29%; /* Ajusta el margen derecho según tus necesidades */
+}
+
+
+.logo-text {
+    font-size: 18px; /* Ajusta el tamaño del texto según tus necesidades */
+    color: #333; /* Ajusta el color del texto según tus necesidades */
+    font-weight: bold; /* Hace el texto en negrita */
+    text-decoration: none;
+    
+}
+
+.top-bar {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-bar p {
+    margin: 5px 0;
+}
+
+.HEader-container {
+    text-align: center;  /* CENTRAR EL  */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+.HEader-container .content {
+    flex-grow: 1;
+}
+
+.HEader-container img {
+    max-width: 50px;
+    height: auto;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.social-icons img {
+    max-width: 50px;
+    max-height: 30%;
+    height: auto;
+    margin-left: 12px; /* Ajusta el valor según tus necesidades */
+}
+.redes-sociales img {
+    width: 80px; /* Ajusta el tamaño de la imagen según tus preferencias */
+    height: auto; /* Mantener la relación de aspecto */
+    margin-right: 5px; /* Ajusta el margen derecho según tus preferencias */
+}
+
+.redes-sociales {
+    display: flex;
+    align-items: center;
+    margin-top: 18px; /* Ajusta el margen superior según tus preferencias */
+}
+
+
+.account-link {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Contenedor adicional para la galería */
+.gallery-container {
+     
+    width: 100%;
+    overflow-x: auto; /* Permite el desplazamiento horizontal */
+}
+
+/* Galería */
+.gallery {
+    display: flex;
+}
+
+.gallery img {
+    max-width: 40%; /* Establece un ancho máximo para las imágenes */
+    max-height: 20%; /* Establece una altura máximo para las imágenes */
+    height: auto;
+}
+
+/* Estilos para los formularios */
+form {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #615757;
+}
+
+
+/* imagenes despues de catalogo */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header-container {
+    text-align: center;
+    background-color: #000000; /* Puedes ajustar el color de fondo según tus preferencias */
+    padding: 5px;
+    text-align: center;
+    background-color: #000000; /* Puedes ajustar el color de fondo según tus preferencias */
+    color: #ffffff; /* Establece el color del texto a blanco */
+    padding: 20px;
+}
+
+.content {
+    max-width: 800px; /* Puedes ajustar el ancho máximo según tus necesidades */
+    margin: 0 auto;
+}
+
+.image-container {
+    text-align: center;
+    margin-top: 20px; /* Ajusta el margen superior según tus preferencias */
+}
+
+.image-container img {
+    margin: 10px; /* Ajusta el margen entre las imágenes según tus preferencias */
+}
+
+.gallery-title {
+    text-align: center;
+    margin-top: 20px; /* Ajusta el margen superior según tus preferencias */
+}
+
+
+select#mySelect {
+    /* Estilos normales del cuadro de opciones */
+    background-color: #273780;
+    color: #ffffff;
+    border-radius: 5px 
+}
+
+select#mySelect:hover {
+    /* Estilos cuando el cuadro de opciones está desplegado (hover) */
+    background-color: #8abee0; /* Puedes ajustar el color según tus preferencias */
+    border-color: #000000; /* Puedes ajustar el color del borde según tus preferencias */
+    border-radius: 5px;
+
+}
+
+.account-link{
+    border: 0.5px solid #ffffff; /* Borde alrededor del contenedor de "Mi cuenta" */
+    padding: 0.5px; /* Espaciado interno del cuadro */
+    cursor: pointer;
+    background-color: #3f4e94;
+    color: #f5f5f5;
+}
+
+.login-link{
+    border: 0.5px solid #ffffff; /* Borde alrededor del contenedor de iniciar secion" */
+    padding: 0.5px; /* Espaciado interno del cuadro */
+    cursor: pointer;
+    background-color: #3f4e94;
+    color: #f5f5f5;
+
+}
+
+.register-link{
+    border: 0.5px solid #ffffff; /* Borde alrededor del contenedor de registrarse" */
+    padding: 0.5px; /* Espaciado interno del cuadro */
+    cursor: pointer;
+    background-color: #3f4e94;
+    color: #f5f5f5;
+
+}
+
+.account-menu{
+margin-right: 5%;
+
+
+}
+
+.videos{
+    background-color: #273780; /* Color de fondo del cuadro desplegable */
+    padding: 5px; /* Espaciado interno del cuadro desplegable */
+    border: 1px solid #140e0e; /* Borde del cuadro desplegable */
+    border-radius: 5px; /* Bordes redondeados */
+    color: #f5f5f5;
+
+}
+
+
+#mySelectAnturio-1 {
+    background-color: #273780; /* Color de fondo del cuadro desplegable */
+    padding: 5px; /* Espaciado interno del cuadro desplegable */
+    border: 1px solid #140e0e; /* Borde del cuadro desplegable */
+    border-radius: 5px; /* Bordes redondeados */
+    color: #f5f5f5;
+    margin-right: -65%;
+}
+
+
+
+
+#mySelectAnturio {
+    background-color: #273780; /* Color de fondo del cuadro desplegable */
+    padding: 5px; /* Espaciado interno del cuadro desplegable */
+    border: 1px solid #140e0e; /* Borde del cuadro desplegable */
+    border-radius: 5px; /* Bordes redondeados */
+    color: #f5f5f5;
+    margin-right: 0%;
+}
+
+
+#mySelectJosefina {
+    background-color: #273780; /* Color de fondo del cuadro desplegable */
+    padding: 5px; /* Espaciado interno del cuadro desplegable */
+    border: 1px solid #140e0e; /* Borde del cuadro desplegable */
+    border-radius: 5px; /* Bordes redondeados */
+    color: #f5f5f5;
+}
+
+
+
+#mySelectOrquideas {
+    background-color: #273780;; /* Color de fondo del cuadro desplegable */
+    padding: 5px; /* Espaciado interno del cuadro desplegable */
+    border: 1px solid #140e0e; /* Borde del cuadro desplegable */
+    border-radius: 5px; /* Bordes redondeados */
+    color: #f5f5f5;
+}
+
+.logo-gmail {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.logo-gmail a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.logo-gmail img {
+    max-width: 70px;
+    max-height: 60%;
+    height: auto;
+    margin-left: 12px; /* Ajusta el valor según tus necesidades */
+
+}
+
+.imagenes-anturio{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.centrar-imagen-1{
+    display: block;
+    margin: 2% auto;
+    max-width: 200%;
+    max-height: 30%;
+    display: flex;
+    flex-direction: row;
+}
+
+.centrar-imagen-2{
+    display: block;
+    margin: 2% auto;
+    max-width: 200%;
+    max-height: 30%;
+    display: flex;
+    flex-direction: row;
+}
+
+.centrar-imagen-3{
+    display: block;
+    margin: 2% auto;
+    max-width: 12%;
+    max-height: 30%;
+    display: flex;
+    flex-direction: row;
+}
+
+.centrar-imagen-4{
+    display: block;
+    margin: 2% auto;
+    max-width: 12%;
+    max-height: 30%;
+    display: flex;
+    flex-direction: row;
+}
+
+.centrar-imagen-5{
+    display: block;
+    margin: 2% auto;
+    max-width: 12%;
+    max-height: 30%;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.ultimas-noticias{
+
+margin-right: -83%; /* Ajusta el espacio entre la imagen y el texto según tus necesidades */
+margin-top: -2%;
+}
+    
+
+
+

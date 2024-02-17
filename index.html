@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Viveros eranios</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    
+    
+</head>
+
+<body>
+    <div class="top-bar">
+        <div class="logo-gmail">
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=viverosgeranios@gmail.com">
+                <img src="imagenes/logo-Gmail-1.png" alt="">
+            </a>
+        </div>
+
+        <p>Horarios: Lunes a Viernes 9am - 5pm</p>
+        <div class="social-icons">
+            <a href="https://wa.me/3116901241" target="_blank">
+                <img src="imagenes/WhatsApp-Logo1.png" alt="">
+            </a>
+            <a href="https://www.facebook.com/Viveroscarmen" target="_blank">
+                <img src="imagenes/facebook-logo-1-2.png" alt="">
+            </a>
+            <a href="https://www.youtube.com/@carmenelisacamayo8545" target="_blank">
+                <img src="imagenes/youtube-logo-5-2.png" alt="">
+            </a>
+            <div class="account-menu" id="account-menu" >
+                <select id="mySelectAnturio" onchange="mostrarContenido()">
+                    <option value="opcion1" class="account-link">MI CUENTA</option>
+                    <option value="opcion2" class="login-link">INICIAR SESIÓN</option>
+                    <option value="opcion3" class="register-link">REGISTRARSE</option>
+                  </select>
+                
+                  <div id="miCuenta" style="display: none;">
+                    <!-- Contenido de "MI CUENTA" -->
+                    
+                  </div>
+                
+                  <div id="iniciarSesion" style="display: none;">
+                    <!-- Contenido de "INICIAR SESIÓN" -->
+                    <form action="registrar.php" method="post">
+                        <label for="usuarioInicio">Usuario:</label>
+                        <input type="text" id="usuarioInicio" name="usuarioInicio" required>
+                
+                        <label for="contrasenaInicio">Contraseña:</label>
+                        <input type="password" id="contrasenaInicio" name="contrasenaInicio" required>
+                
+                        <button type="submit" name="register">Iniciar Sesión</button>
+                    </form>
+                    
+               
+                </div>
+                </form>
+              </div>
+                  <div id="registrarse" style="display: none;">
+                    <!-- Contenido de "REGISTRARSE" -->
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required >
+              
+                    <label for="apellido">Apellido:</label>
+                    <input type="text" id="apellido" name="apellido" required>
+              
+                    <label for="edad">Edad:</label>
+                    <input type="number" id="edad" name="edad" required>
+              
+                    <label for="nacionalidad">region:</label>
+                    <input type="text" id="nacionalidad" name="nacionalidad" required>
+            
+                    <label for="telefono">Número de Teléfono:</label>
+                    <input type="tel" id="telefono" name="telefono" required>
+              
+                    <button type="submit">Registrar</button>
+                </form> 
+
+                  </div>
+            </div>
+        </div>
+    </div>
+
+    <header>
+        <div class="menu-container">
+            <a href="redes sociales" class="logo">
+                <img src="imagenes/ABUELA LOGO.png" alt="Logo" class="logo-img">
+                <span class="logo-text">VIVEROS Y GERANIOS</span>
+            </a>
+            <div class="ultimas-noticias" id="ultimas-noticias">
+                <select class="videos"onchange="window.location.href=this.value">
+                    <option value="">Ultimas publicaciones</option>
+                    <option value="https://youtu.be/MeV9oSeZ3a8?si=gPRJaGilc-feMetd">Ultimo video en Youtube</option>
+                    <option value="https://www.facebook.com/Viveroscarmen">Ultima publicacion en Facebook</option>
+                </select>
+
+            </div>
+
+        </div>
+    </header>
+
+    
+    <div class="gallery-container">
+        <div class="gallery">
+            <img src="INICIO/IMG_20211226_134233 ANTUIO.jpg" alt="Imagen 1">
+            <img src="INICIO/IMG_20220208_162429 CYB.jpg" alt="Imagen 2">
+            <img src="INICIO/IMG_20220221_132817_2 anturip.jpg" alt="Imagen 3">
+            <img src="imagenes/historia/IMG_20221207_160442.jpg" alt="">
+        </div>
+    </div>
+    
+<body>
+    <header>
+        <div class="menu1">
+            <nav>
+                <ul>
+                    <li>
+                        <select id="mySelectAnturio-1" onchange="window.location.href=this.value">
+                            <option value="">servicios</option>
+                            <option value="https://wa.me/3116901241">whatsapp</option>
+                            <option value="https://www.facebook.com/Viveroscarmen">Facebook</option>
+                            <option value="https://www.google.com.mx/maps/place/CARMEN+CAMAYO+-+VIVEROS+Y+GERANIOS/@2.6136147,-76.5152531,17z/data=!4m6!3m5!1s0x8e30090b121c1f01:0xbedbb3988e1ddf48!8m2!3d2.614804!4d-76.5133198!16s%2Fg%2F11rpc5vgbj?entry=ttu">Ubicacion</option>
+                        </select>
+                          
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="header-container">
+            <div class="content">
+                <h1> CATALOGO </h1>
+            </div>
+        </div>
+
+        <div class="CATALOGO-MENU">
+            <nav>
+                <ul>
+                    <li>
+                      
+                        <h2 id="mySelectAnturio" onchange="mostrarANTURIOS('mySelectAnturio')">ANTURIO</h2>
+                        <div class="imagenes-anturio">
+                            
+                            
+                            <!-- Agregué una clase para centrar las imágenes en el contenedor -->
+                            <img class="centrar-imagen-1" src="imagenes/IMG_20221004_002619 ANTURIO CON MI ABU.jpg" alt="">
+                            <img class="centrar-imagen-2" src="imagenes/IMG_20221213_132910 anturio g.jpg" alt="">
+                            <img class="centrar-imagen-3" src="imagenes/anturio/IMG_20220221_150827.jpg" alt="">
+                            <img class="centrar-imagen-4" src="imagenes/anturio/IMG_20220225_195400.jpg" alt="">
+                           
+                        </div>      
+
+                        <div >
+                            <h2 id="mySelectOrquideas" onchange="mostrarANTURIOS('mySelectOrquideas')">ORQUIDEAS</h2>
+                            <img class="centrar-imagen "src="imagenes/IMG_20230104_153040 ORQUIDEA GRANDE.jpg" alt="">
+                        </div>
+                        <div >
+                            <h2 id="mySelectAnturio" onchange="mostrarANTURIOS('mySelectAnturio')">JOSEFINAS</h2>
+                            <img class="centrar-imagen" src="imagenes/IMG_20230104_153040 ORQUIDEA GRANDE.jpg" alt="">
+                          </div>
+
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+   
+    </script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
